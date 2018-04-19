@@ -67,6 +67,10 @@ namespace VisualStudioFileOpenTool
 			//  Source: http://www.mztools.com/articles/2011/MZ2011011.aspx
 			switch (visualStudioVersionNumber)
 			{
+				case 17:
+					return "VisualStudio.DTE.15.0";
+				case 15:
+					return "VisualStudio.DTE.14.0";
 				case 13:
 					return "VisualStudio.DTE.12.0";
 				case 12:
